@@ -1,18 +1,7 @@
---[[
-Floppa Hub v1.1
-(Beta Acess)
-
-Mirrors:
-
-1) Main Ui
-2) Auto Bounty
-3) Kaitun { NÃO FIZ AINDA }
-]]
-
 if version == 1 then
-
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/jota-js/FloppaHub/main/gui.lua"))()
 else if version == 2 then
-
+  print('Not released')
 else if version == 3 then
-
-    end
+  print('Not released')
+end
