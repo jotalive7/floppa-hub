@@ -5,5 +5,5 @@ if currentPlaceId == 10260193230 then
 elseif currentPlaceId == 7449423635 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jotalive7/floppa-hub/refs/heads/main/src/blox-fruits"))()
 else
-  return
+  game.Players.LocalPlayer:Kick("Game not supported, only blox and meme sea.")
 end
